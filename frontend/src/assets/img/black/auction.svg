@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
+  <g id="vuesax_bold_mouse-circle" data-name="vuesax/bold/mouse-circle" transform="translate(-620 -636)">
+    <g id="mouse-circle" transform="translate(620 636)">
+      <path id="Vector" d="M0,0H35V35H0Z" fill="none" opacity="0"/>
+      <path id="Vector-2" data-name="Vector" d="M11.594,7.033l-2.377.8a2.2,2.2,0,0,0-1.4,1.4l-.8,2.377A2.211,2.211,0,0,1,2.8,11.569L.1,2.892A2.216,2.216,0,0,1,2.873.106l8.692,2.7A2.226,2.226,0,0,1,11.594,7.033Z" transform="translate(18.973 18.983)" fill="#292d32"/>
+      <path id="Vector-3" data-name="Vector" d="M27.713,13.859a15.839,15.839,0,0,1-.117,1.867.716.716,0,0,1-.933.569l-7.073-2.2a4.4,4.4,0,0,0-5.513,5.527l2.187,7.044a.724.724,0,0,1-.583.933,15.3,15.3,0,0,1-1.823.117A13.855,13.855,0,0,1,0,13.465,14.015,14.015,0,0,1,13.465,0,13.855,13.855,0,0,1,27.713,13.859Z" transform="translate(2.912 2.912)" fill="#292d32"/>
+    </g>
+  </g>
+</svg>

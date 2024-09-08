@@ -1,0 +1,29 @@
+@import "assets/styles/colors.scss";
+
+.deleteModal {
+  .commonDeleteModalContainer {
+    .heading {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      p {
+        color: $primary-heading-color;
+        text-align: center;
+      }
+    }
+
+    .para {
+      p {
+        color: $primary-text-color;
+        margin-bottom: 30px;
+      }
+    }
+
+    .btnsRow {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      gap: 20px;
+    }
+  }
+}

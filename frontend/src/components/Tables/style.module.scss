@@ -1,0 +1,15 @@
+@import "assets/styles/colors.scss";
+
+.commonTableContainer {
+  :global(.ant-table-cell) {
+    vertical-align: middle;
+  }
+  :global(.ant-table-container) {
+    :global(.ant-table-thead) {
+      :global(.ant-table-cell) {
+        text-align: justify;
+        padding: 5px 10px;
+      }
+    }
+  }
+}

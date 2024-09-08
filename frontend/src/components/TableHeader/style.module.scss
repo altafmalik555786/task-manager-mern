@@ -1,0 +1,39 @@
+@import 'assets/styles/colors.scss';
+
+.tableHeaderWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+
+  .tableWrappeInnerContainer {
+    height: 40px;
+  }
+
+  .headerIconTitleContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+  }
+}
+
+.tableHeaderWrapper h4 {
+  margin: 0;
+  color: black ;
+  font-size: 19px;
+}
+
+
+.tableHeaderSubTitle {
+  color: $primary-text-color;
+}
+.headerActionBtn {
+  display: flex;
+  border: transparent;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 15px 18px #ecedffa3;
+  border-radius: 8px;
+  color: $secondary-btn-color;
+   background-color: $secondary-btn-background-color;
+}

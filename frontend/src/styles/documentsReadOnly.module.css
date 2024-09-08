@@ -1,0 +1,17 @@
+.documentsReadOnlyForm {
+  padding: 1rem 1vw;
+  background-color: #fbfbfb;
+  border-radius: 7px;
+}
+.documentItemWrapper {
+  /* max-width: 40px;
+  max-height: 40px; */
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+}
+
+.documentItemWrapper img {
+  max-width: 120px;
+  max-height: 120px;
+}

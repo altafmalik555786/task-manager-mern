@@ -1,0 +1,43 @@
+@import "assets/styles/colors.scss";
+
+.userName {
+  color: $primary-text-color;
+
+  &:hover {
+    color: #e36075;
+  }
+}
+
+.btnDevEnv {
+  color: $secondary-btn-color;
+  background-color: $secondary-btn-background-color;
+  display: flex;
+  gap: 5px;
+  align-items: flex-start;
+}
+
+.adminIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #e36075 !important;
+
+  &:hover {
+    color: #e36075 !important;
+    opacity: 1;
+  }
+}
+
+.logoutRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80px;
+    align-items: center;
+
+
+    img {
+        width: 15px;
+        height: 15px;
+    }
+}

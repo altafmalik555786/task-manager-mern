@@ -1,0 +1,95 @@
+.applicationDetailsWrapper {
+}
+
+.applicationDetailsWrapper h5 {
+  color: #081735;
+  /* font-family: Poppins-SemiBold; */
+}
+.applicationDetailsWrapper p {
+  color: #8f95b2;
+  /* max-width: 70%; */
+}
+
+.appDetailsHeaderBtnHolder {
+  /* margin-left: 1rem; */
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  width: max-content;
+}
+.appDetailsCancelBtn {
+  border: red 1px solid;
+  color: red;
+  background-color: #fff;
+  border-radius: 3px;
+}
+/* .appDetailsEnableBtn {
+  color: #007b85;
+  border-radius: 3px;
+  border: #007b85 1px solid;
+}
+.appDetailsEnableBtn:hover {
+  background-color: #007b85;
+  color: #ffff;
+  transition: all 0.5s ease;
+} */
+.appDetailsDisableBtn {
+  background-color: #c4c4bf;
+  color: #ffff;
+  border-radius: 3px;
+}
+.appDetailsCancelBtn:hover {
+  border: red 1px solid;
+  color: #fff;
+  background-color: red;
+  transition: all 0.5s ease;
+}
+.tabTitle {
+  display: flex;
+  justify-content: center;
+  width: 100% !important;
+  font-size: 17px;
+}
+.documentsOwnerHeading {
+  color: #081735;
+  /* font-family: Poppins-SemiBold; */
+  padding: 0.9rem 0;
+}
+.additionalDocumentsHeading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.entranceTestDetailsHolder > * {
+  margin-top: 1rem;
+}
+
+.logsStageName {
+  font-size: 30px;
+  color: #007575;
+}
+
+.logsStageStartEndTime {
+  font-size: 13px;
+  font-weight: bold;
+  color: #007575;
+}
+.updateErpBtnRow {
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+}
+.studentExistsChecbox {
+  margin-left: 10px;
+  display: flex;
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 413px) {
+  .appDetailsHeaderBtnHolder {
+    /* margin-left: 1rem; */
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,179 @@
+.certificate-input-conatainer {
+  display: block;
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/* Hide the browser's default checkbox */
+.certificate-input-conatainer input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 18px;
+  border: 1px solid black;
+  width: 18px;
+  background-color: #fff;
+}
+/* On mouse-over, add a grey background color */
+.certificate-input-conatainer:hover input ~ .checkmark {
+  background-color: #fff;
+}
+/* When the checkbox is checked, add a blue background */
+.certificate-input-conatainer input:checked ~ .checkmark {
+  background-color: #fff;
+}
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+/* Show the checkmark when checked */
+.certificate-input-conatainer input:checked ~ .checkmark:after {
+  display: block;
+}
+/* Style the checkmark/indicator */
+.certificate-input-conatainer .checkmark:after {
+  left: 3px;
+  top: -7px;
+  width: 10px;
+  height: 22px;
+  border: solid #fc6522;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.vechcleText {
+  font-family: Roboto Slab;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 47px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.tobecompletedTextBgColor {
+  background: #e6e6e6;
+  display: flex;
+  align-items: center;
+}
+.tobecompletedText {
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 17px;
+  margin-top: 12px;
+  margin-left: 10px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ff4a86;
+}
+.report-user-data {
+  background-color: #f7f7f7;
+  margin-top: -6px;
+}
+.inspectorText {
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}
+.fallText {
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #767170;
+}
+.dateColor {
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #767170;
+}
+.inspectionText {
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: #767170;
+}
+.failText {
+  font-family: Lato;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 100px;
+  letter-spacing: 0em;
+  color: "black";
+}
+.passText {
+  font-family: Lato;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 58px;
+  letter-spacing: 0em;
+  color: "black";
+}
+.radiusContainer {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.datebgcolorContaner {
+  background-color: #f7f7f7;
+  margin-top: -12px;
+  padding: 15px;
+}
+.vechilebgColor {
+  background-color: #767170;
+  padding: 10px;
+}
+.tobecompletedbgColor {
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+.tobecompletedText {
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0em;
+  color: #ff4a86;
+}
+.card-stats .card-footer {
+  padding: 0 !important;
+}

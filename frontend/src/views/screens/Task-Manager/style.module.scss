@@ -1,0 +1,110 @@
+@import "assets/styles/colors.scss";
+
+.userListContainer {
+  padding: 20px;
+
+  .onClickName {
+    span {
+      cursor: pointer;
+      color: #dab748;
+      margin: 0;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .eyeIcon {
+    color: $primary-text-color;
+    cursor: pointer;
+  }
+
+  .amount {
+    p {
+      margin: 0px;
+    }
+  }
+
+  :global(.ant-table-title) {
+    padding: 0px 20px;
+  }
+
+  .customerTable {
+    margin: 10px 0px;
+  }
+
+  .searchBoxContainer {
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+    button {
+      color: $secondary-btn-color;
+      background-color: $secondary-btn-background-color;
+      border: $secondary-btn-border;
+      height: 40px;
+      padding: 5px 20px;
+    }
+    :global(.ant-select-selector) {
+      height: 40px;
+      padding: 5px 15px;
+      color: $secondary-btn-color;
+      background-color: #36454f;
+      border: $secondary-btn-border;
+    }
+    :global(.ant-select-arrow) {
+      color: white;
+    }
+  }
+
+  .actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    width: 50px;
+
+    img {
+      width: 15px;
+      cursor: pointer;
+    }
+  }
+
+  // @media screen and (max-width: 768px) {
+  //   .searchBoxContainer {
+  //     // input {
+  //     //   width: 250px !important;
+  //     // }
+  //     .selectBox {
+  //       background-color: blue;
+  //     }
+  //   }
+  // }
+}
+
+.modalAuctionExcel {
+  width: 400px;
+  margin: auto;
+
+  .auctionUploadViaExcelForm {
+    width: 95%;
+    margin: auto;
+
+    .btn {
+      width: 100%;
+      margin: 5px 0px;
+    }
+  }
+
+  :global(.ant-form-vertical) {
+    // border: 2px solid blue;
+    margin-bottom: "20px";
+  }
+
+  :global(.ant-form-item-row) {
+    // border: 2px solid blue;
+    margin-bottom: "20px";
+  }
+}

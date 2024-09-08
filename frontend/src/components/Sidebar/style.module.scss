@@ -1,0 +1,47 @@
+
+@import 'assets/styles/colors.scss';
+
+.mainSideBarContainer {
+  
+  .sideLogoLink {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .JadeLgo {
+      width: 50px;
+      height: auto;
+      margin: 4px;
+      margin-bottom: 10px;
+    }
+  }
+  
+
+  .sideBarTab  {
+    color: #808080 !important;
+    font-size: 14px;
+    margin: -5px 15px !important;
+
+    div {
+      p {
+        text-transform: capitalize;
+        font-size: 14px;
+
+      }
+    }
+  }
+
+  .acitveSidebarTab {
+    // background-color: $secondary-card-bg;
+    // padding: 10px 20px !important;
+    // margin: -5px 3px !important;
+    // margin-right: 10px !important;
+  
+
+    .sideMenuTitle {
+      text-transform: capitalize;
+      font-size: 14px;
+    }
+  }
+
+
+}

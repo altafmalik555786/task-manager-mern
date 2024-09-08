@@ -1,0 +1,52 @@
+.request-type-main {
+align-items: center;
+}
+.request-id-wrapper {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 0.5rem;
+}
+.request-id-wrapper h6 {
+    padding: 0;
+    margin: 0;
+}
+.request-id-wrapper .request-right-arrow {
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.routes-menu-main {
+    align-items: center;
+}
+.menu-list {
+    display: flex;
+    flex-direction: column;
+}
+ .ant-popover-inner {
+  background-color: #fbfbfb;
+  border-radius: 10px;
+
+}
+.ant-popover-arrow {
+    display: none;
+}
+.menu-list .menu-links {
+    margin-top: 0.5rem;
+    gap: 1rem;
+    cursor: pointer;
+}
+ .menu-list .menu-links p{
+    color: #000;
+    padding: 0;
+    margin: 0;
+}
+ .menu-links p:hover {
+  color: #007575;
+  margin-left: 1px;
+  transition: all 0.3s ease;
+
+}
+.menu-links .menu-links-icon {
+  color: #007575;
+  font-size: 0.5rem;
+}

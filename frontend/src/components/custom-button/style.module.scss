@@ -1,0 +1,82 @@
+@import "assets/styles/colors.scss";
+
+.secondaryBtn {
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #dab748;
+  color: black;
+  border: $secondary-btn-border;
+  border-radius: 5px;
+
+  &:hover {
+    cursor: pointer;
+    color: black;
+    background-color: #dab748;
+  }
+}
+
+.two {
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #7393b3 !important;
+  color: #ffffff !important;
+  border: $secondary-btn-border;
+  border-radius: 5px;
+
+  &:hover {
+    color: #fff !important;
+    background-color: #7393b3 !important;
+    z-index: 2;
+  }
+  &:active {
+    color: white !important;
+  }
+  &::after {
+    color: white !important;
+  }
+  &::before {
+    color: white !important;
+  }
+}
+
+.one {
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #b2beb5 !important ;
+  color: #000000 !important ;
+  border: $secondary-btn-border;
+  border-radius: 5px;
+
+  &:hover {
+    cursor: pointer;
+    color: #000000 !important ;
+    background-color: #b2beb5 !important;
+  }
+}
+
+.three {
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff !important;
+  background-color: #36454F !important;
+  border: $secondary-btn-border;
+  border-radius: 5px;
+
+  &:hover {
+    cursor: pointer;
+    color: #ffffff !important;
+    background-color: #36454F !important;
+  }
+}

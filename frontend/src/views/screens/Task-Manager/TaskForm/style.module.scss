@@ -1,0 +1,77 @@
+@import "assets/styles/colors.scss";
+
+.auctionFormContainer {
+  padding: 20px;
+  margin: 20px 40px;
+
+  .createAuctionForm {
+    .forthFieldMargin {
+      margin: 0 !important;
+    }
+
+    .featuredAuctionSwitch {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      gap: 10px;
+      align-items: center;
+      label {
+        margin: 0;
+      }
+    }
+
+    .titleFieldContainer {
+      margin: 5px 0px;
+
+      span {
+        border: 1px solid $primary-text-color;
+        position: absolute;
+        left: 145px;
+        color: $primary-text-color;
+        font-size: 12px;
+        padding: 0px 5px;
+        font-weight: bold;
+      }
+    }
+
+    .imageVideoFileContainer {
+      margin-bottom: 40px;
+      .multiImageContainer {
+        position: relative;
+
+        .closeIcon {
+          position: absolute;
+          z-index: 1;
+          right: 2px;
+          top: 2px;
+        }
+
+        &:hover {
+          .closeIcon {
+            background: white;
+            border-radius: 50%;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+
+    :global(.ant-form-item) {
+      margin: 20px 0px;
+    }
+  }
+
+  @media screen and (max-width: 470px) {
+    margin: 0px;
+
+    .createAuctionForm {
+      .titleFieldContainer {
+        span {
+          position: inherit;
+          left: 0px;
+          font-size: 10px;
+        }
+      }
+    }
+  }
+}

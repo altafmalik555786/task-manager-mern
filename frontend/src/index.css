@@ -1,0 +1,181 @@
+@font-face {
+  font-family: "Poppins-Black";
+  src: url("./assets/fonts/Poppins/Poppins-Black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins-BlackItalic";
+  src: url("./assets/fonts/Poppins/Poppins-BlackItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins-BoldItalic";
+  src: url("./assets/fonts/Poppins/Poppins-BoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins-ExtraBoldItalic";
+  src: url("./assets/fonts/Poppins/Poppins-ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins-Light";
+  src: url("./assets/fonts/Poppins/Poppins-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins-LightItalic";
+  src: url("./assets/fonts/Poppins/Poppins-LightItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url("./assets/fonts/Poppins/Poppins-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins-MediumItalic";
+  src: url("./assets/fonts/Poppins/Poppins-MediumItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("./assets/fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins-SemiBold";
+  src: url("./assets/fonts/Poppins/Poppins-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins-SemiBoldItalic";
+  src: url("./assets/fonts/Poppins/Poppins-SemiBoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins-Thin";
+  src: url("./assets/fonts/Poppins/Poppins-Thin.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins-ThinItalic";
+  src: url("./assets/fonts/Poppins/Poppins-ThinItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url("./assets/fonts/Poppins/Poppins-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Manrope-Medium";
+  src: url("./assets/fonts/Manrope//Manrope-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Manrope-Bold";
+  src: url("./assets/fonts/Manrope//Manrope-Bold.ttf") format("truetype");
+}
+
+
+* {
+  font-family: "Manrope-Medium" !important;
+}
+
+iframe {
+  display: none;
+}
+
+.image-previewer-modal .ant-modal-body {
+  padding: 0 !important;
+}
+
+.all-applicationTable-select>.ant-select-selector {
+  height: 35px !important;
+  /* border-radius: 30px !important;
+  background-color: red; */
+  max-width: 200px !important;
+}
+
+.all-applicationTable-select>.ant-select-selector {
+  /* border-radius: 19px !important; */
+}
+
+.documentFormItemRow {
+  padding: 2rem;
+
+  background-color: #fbfbfb;
+  margin: 0px;
+}
+
+.documentExpiryDateWrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.documentInputCardItem {
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.tcc_reson_tag {
+  color: #007B85
+}
+
+@media screen and (max-width: 413px) {
+  .filterColumn {
+    width: 100% !important;
+    max-width: 45vw !important;
+    min-width: 160px !important;
+  }
+
+  .readOnlyDocCoverImage {
+    width: 35%;
+  }
+
+  .admissionStatusFormCol {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .generalNotificationTriggerColumn {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .compactFormItemCol {
+    width: 100% !important;
+  }
+
+  .applicationDetailsTabForm {
+    background-color: transparent !important;
+  }
+
+  .compactFormItemRow {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    padding: 10px 0;
+  }
+
+  .documentFormItemRow {
+    background-color: transparent;
+    padding: 1rem 0;
+  }
+
+  .documentExpiryDateWrapper {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .documentInputCardItem {
+    border-radius: 0;
+  }
+
+  .readOnlyFormItemCol {
+    width: 100% !important;
+  }
+}
+

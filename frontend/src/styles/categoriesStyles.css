@@ -1,0 +1,30 @@
+.addButton{
+    display: flex;
+    justify-content: center;
+    background: #1A8D4D;
+    color: #FFFF;
+    font-weight: bold;
+    width: 10%;
+    cursor: pointer;
+    height: 34px;
+    align-items: center;
+}
+
+.addButtonWrapper{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+
+
+
+.submit-button{
+    background: #1A8D4D;
+    color: #FFFF;
+    font-weight: bold;
+}
+
+.mt-6 {
+    margin-top: 6%;
+}

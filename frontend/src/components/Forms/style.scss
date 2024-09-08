@@ -1,0 +1,97 @@
+@import 'assets/styles/colors.scss';
+
+
+.login-container {
+  height: 100vh;
+  display: flex;
+  background-color: #edf1f7;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.login-box {
+  background-color: #ffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  width: 100%;
+}
+
+.login-heading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 2rem;
+
+  h5 {
+    color: $primary-text-color;
+  }
+}
+
+.login-heading {
+  /* color: #0000; */
+  text-align: center;
+  font-size: calc(1em + 2vw);
+  margin-top: 1rem;
+}
+
+.form-wrapper {
+  min-width: 30vw;
+}
+
+.login-form {
+  label {
+    color: $primary-text-color;
+  }
+  input {
+    border: 1px solid $primary-input-border;
+  }
+}
+
+
+.login-form .form-control {
+  background-color: #f7f9fc;
+
+}
+
+
+.login-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.login-form-button {
+  width: 100%;
+  background:  $primary-btn-background-color !important;
+  color: $primary-btn-color !important;
+  border: none !important;
+}
+
+.create-account-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.create-account-link {
+  color: #a1947a;
+  font-weight: bold;
+}
+
+.create-account-link:hover {
+  color: #a1947a;
+}
+
+.forget-password-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (max-width: 750px) {
+  .form-wrapper {
+    min-width: 50vw;
+  }
+}
